@@ -1,9 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'</script>
+import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue';
+</script>
 
 <template>
-  <img id="logo" alt="Wails logo" src="./assets/images/logo-universal.png"/>
-  <HelloWorld/>
+  <NavBar />
+  <img id="logo" alt="Wails logo" src="./assets/images/logo-universal.png" />
+  <HelloWorld />
 </template>
 
 <style>
