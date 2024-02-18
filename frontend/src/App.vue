@@ -5,7 +5,6 @@ import NavBar from './components/NavBar.vue';
 
 <template>
   <NavBar />
-  <img id="logo" alt="Wails logo" src="./assets/images/logo-universal.png" />
   <HelloWorld />
 </template>
 
