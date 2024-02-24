@@ -4,10 +4,15 @@
   "outputfilename": "ichigo",
   "frontend:install": "npm install",
   "frontend:build": "npm run build",
+  "frontend:dir": "frontend",
   "frontend:dev:watcher": "npm run dev",
   "frontend:dev:serverUrl": "auto",
   "author": {
     "name": "pierrot",
     "email": "pierrot@offset.cx"
+  },
+  "info": {
+    "productName": "ichigo",
+    "productVersion": "0.0.1"
   }
 }
